@@ -88,3 +88,7 @@ Step3: add train_debug.py test version
     6.1 使用 Streamlit 快速构建图像上传页面
     6.2 支持任意尺寸图片上传并实时展示预测结果
     6.3 用户友好界面，适合部署与演示（未来可部署至 Hugging Face Spaces）
+
+I independently built a complete end-to-end image classification pipeline from scratch, including data preprocessing, CNN architecture design, model training, evaluation with precision/recall/F1/confusion matrix, and both CLI and web-based inference interfaces using Streamlit.
+
+我从零实现了一个图像分类的完整流程项目，覆盖了从数据预处理、模型结构设计、训练与评估，到推理部署与用户交互（命令行 + 网页上传预测），具备完整的工程能力和实战经验。
