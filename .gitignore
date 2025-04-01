@@ -1,0 +1,7 @@
+# 忽略数据集和模型文件
+*.tar.gz
+*.zip
+*.pt
+*.pth
+__pycache__/
+data/
