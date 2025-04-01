@@ -12,7 +12,7 @@ model.load_state_dict(torch.load("cat_dog_cnn.pth", map_location=device))
 model.eval()
 
 # 2. 加载数据
-dataloader = get_cat_dog_dataloader(batch_size=32)
+dataloader = get_cat_dog_dataloader(batch_size=32) #每次预测 32 张图片，加速处理
 
 # 3. 预测并收集标签
 y_true = []
